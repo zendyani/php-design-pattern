@@ -3,8 +3,8 @@
 namespace Strategy\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Strategy\payByCash;
-use Strategy\payByPayPal;
+use Strategy\PayByCash;
+use Strategy\PayByPayPal;
 
 class StrategyTest  extends TestCase
 {

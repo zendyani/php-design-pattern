@@ -9,7 +9,7 @@
 namespace Strategy;
 
 
-class payByCash implements PaymentStrategy
+class PayByCash implements PaymentStrategy
 {
 
     public function pay($amount)

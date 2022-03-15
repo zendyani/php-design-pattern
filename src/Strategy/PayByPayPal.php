@@ -3,7 +3,7 @@
 namespace Strategy;
 
 
-class payByPayPal implements PaymentStrategy
+class PayByPayPal implements PaymentStrategy
 {
 
     public function pay($amount)
